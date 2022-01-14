@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 50px;
+  border-bottom: 3px solid #61dafb;
+
+  &__title {
+    margin-right: auto;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .active {
+    color: #61dafb;
+  }
+
+  nav {
+    padding-right: 50px;
+  }
+}
